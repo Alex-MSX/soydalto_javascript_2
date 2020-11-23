@@ -1,0 +1,42 @@
+div {
+  padding: 50px;
+  margin: 10px;
+}
+
+#contenedor-rojo {
+  background: red;
+}
+
+#contenedor-azul {
+  background: blue;
+}
+
+#contenedor-dblclick {
+  background: green;
+  color: white;
+}
+
+#contenedor-mouseover {
+  background: orange;
+}
+
+#contenedor-clickderecho {
+  background: purple;
+  color: #fff;
+}
+
+#contenedor-move {
+  background: pink;
+}
+
+.formulario {
+  border: solid 1px gray;
+}
+
+.pizarron {
+  color: gray;
+}
+
+.pizarron b {
+  color: green;
+}

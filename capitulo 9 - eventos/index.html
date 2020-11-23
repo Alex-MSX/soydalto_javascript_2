@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h2>Eventos de la página</h2>
+    <p>NOTAS IMPORTANTES:</p>
+    <ul>
+      <li>La función addEventListener se puede utilizar con el parámetro function() o con flecha () => </li>
+      <li>Si la utilizo con el parámetro function() entonces hago referencia al elemento con 'this'</li>
+      <li>Si la utilizo con una función flecha, entonces hago referencia al elemento con 'e.target'</li>
+      <li>Cuando usamos addEventListener sin nada antes hacemos referencia a window</li>
+    </ul>
+
+    <div id="contenedor-rojo">
+      Haz click
+      <div id="contenedor-azul">
+        Haz click
+        <button id="boton1" type="button" name="button">Botón sin propagación</button>
+        <button id="boton2" type="button" name="button">Botón con propagación</button>
+      </div>
+    </div>
+
+    <div id="contenedor-dblclick">
+      Haz doble click
+    </div>
+
+    <div id="contenedor-mouseover">
+      Pasa el mouse por encima
+    </div>
+
+    <div id="contenedor-clickderecho">
+      Haz click derecho
+    </div>
+
+    <div id="contenedor-move">
+      Mueve el mouse
+    </div>
+
+    <div class="formulario">
+      <input id="input1" type="text" name="" placeholder="Escribe...">
+      <div class="pizarron">
+
+      </div>
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
